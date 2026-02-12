@@ -1,13 +1,30 @@
-# Ignore C compiled files and local data logs
+# --- C Language ---
 *.exe
 *.out
-expenditure.csv
+*.o
+*.obj
+expenditure.csv  # Prevents your local data logs from being uploaded
 
-# Ignore Python cache and virtual environments
+# --- Python ---
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
+env/
+venv/
+.pytest_cache/
 
-# Ignore system files
+# --- Web / Frontend ---
 .DS_Store
 Thumbs.db
+node_modules/
+.env
+dist/
+build/
+
+# --- Editor Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo

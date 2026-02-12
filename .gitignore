@@ -1,0 +1,13 @@
+# Ignore C compiled files and local data logs
+*.exe
+*.out
+expenditure.csv
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
